@@ -41,7 +41,11 @@ android {
 dependencies {
 
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
-    
+
+    implementation 'androidx.room:room-runtime:2.4.0'
+    implementation "androidx.room:room-rxjava3:2.4.0"
+    kapt 'androidx.room:room-compiler:2.4.0'
+
     implementation 'com.github.moxy-community:moxy:2.2.2'
     kapt "com.github.moxy-community:moxy-compiler:2.2.2"
     implementation "com.github.moxy-community:moxy-ktx:2.2.2"
